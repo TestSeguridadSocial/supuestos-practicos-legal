@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1>Política de privacidad</h1>
-<p><strong>Supuestos Prácticos SS</strong> (es.supuestospracticosss.app)<br><small>Última actualización: 19 de noviembre de 2026</small></p>
+<p><strong>Supuestos Prácticos SS</strong> (es.supuestospracticosss.app)<br><small>Última actualización: 19 de noviembre de 2026 (revisada)</small></p>
 
 <p>Esta app sirve para practicar supuestos prácticos del temario de Seguridad Social. No es una app oficial ni está vinculada a ningún organismo público.</p>
 
@@ -21,34 +21,43 @@
 
 <h2>Qué datos recogemos y para qué</h2>
 <ul>
-  <li><strong>Correo electrónico y contraseña</strong> (si creas una cuenta): para identificarte y sincronizar tu progreso entre dispositivos. La contraseña se guarda cifrada y nunca la vemos.</li>
+  <li><strong>Correo electrónico y contraseña</strong>: para usar la app necesitas una cuenta. Sirven para identificarte y sincronizar tu progreso entre dispositivos. La contraseña se guarda cifrada y nunca la vemos.</li>
   <li><strong>Resultados de los supuestos</strong> (notas e intentos): para mostrarte tu avance y guardarlo en tu cuenta.</li>
-  <li><strong>Identificador de publicidad del dispositivo y datos de interacción con anuncios</strong>: los usa Google AdMob para mostrar el anuncio opcional que desbloquea un supuesto extra en el plan gratuito.</li>
-  <li><strong>Datos técnicos de fallos</strong> (modelo del dispositivo, versión del sistema, registro del error): los recoge Firebase Crashlytics para corregir errores.</li>
+  <li><strong>Uso del plan gratuito</strong>: el servidor registra qué supuestos abres cada día y los extras desbloqueados con anuncios, para aplicar el límite diario y tu acceso Premium.</li>
+  <li><strong>Dudas que nos envías</strong> (botón <em>Enviar una duda</em>): el texto, el correo si lo indicas y, para evitar abusos, una huella cifrada (hash) de tu dirección IP que no permite conocerla. Las dudas se reciben en nuestro correo de contacto (Gmail).</li>
+  <li><strong>Identificador de publicidad del dispositivo y datos de interacción con anuncios</strong>: los usa Google AdMob para mostrar el anuncio opcional que desbloquea un supuesto extra en el plan gratuito. Cuando completas el anuncio, AdMob avisa a nuestro servidor para verificar la recompensa (con tu identificador de cuenta y el del anuncio).</li>
+  <li><strong>Datos técnicos de fallos</strong> (modelo del dispositivo, versión del sistema, registro del error): los recoge Firebase Crashlytics (junto con un identificador de instalación) para corregir errores.</li>
   <li><strong>Compras</strong>: las suscripciones Premium las cobra Google Play. RevenueCat recibe un identificador anónimo y el estado de la suscripción para activar Premium. Nunca vemos tus datos de pago.</li>
 </ul>
-<p>Los supuestos guardados y la racha diaria se quedan solo en tu dispositivo.</p>
+<p><strong>Solo en tu dispositivo</strong> (no los recibimos): supuestos guardados, racha diaria, ajustes de apariencia, la hora del aviso diario y una copia temporal de los supuestos para ir más rápido. La sesión se guarda en el almacén seguro del sistema (Android Keystore).</p>
+
+<h2>Permisos del dispositivo</h2>
+<ul>
+  <li><strong>Notificaciones</strong>: solo si activas el aviso diario en Ajustes. Se programa en tu móvil; no usa nuestros servidores. Puedes desactivarlo cuando quieras. Para que siga funcionando tras reiniciar el móvil, la app se reactiva al arrancar.</li>
+  <li><strong>Internet</strong>: para la cuenta, el contenido y las compras.</li>
+  <li><strong>ID de publicidad</strong>: para los anuncios con recompensa (puedes restablecerlo o desactivarlo en los ajustes de Android).</li>
+</ul>
 
 <h2>Base jurídica</h2>
 <ul>
   <li><strong>Ejecución del contrato</strong> (art. 6.1.b RGPD): cuenta, progreso, dudas que nos envíes y gestión de Premium.</li>
-  <li><strong>Consentimiento</strong> (art. 6.1.a): anuncios personalizados. Al abrir la app se te pregunta; puedes negarte o cambiarlo en <em>Ajustes → Privacidad de los anuncios</em>. Si no aceptas, los anuncios serán no personalizados.</li>
+  <li><strong>Consentimiento</strong> (art. 6.1.a): anuncios personalizados y notificaciones. Al abrir la app se te pregunta; puedes negarte o cambiarlo en <em>Ajustes → Privacidad de los anuncios</em>. Si no aceptas, los anuncios serán no personalizados (o no se mostrarán si no hay consentimiento válido).</li>
   <li><strong>Interés legítimo</strong> (art. 6.1.f): informes de fallos para mantener la app funcionando y segura.</li>
   <li><strong>Obligación legal</strong> (art. 6.1.c): conservar datos de compras cuando la ley lo exige.</li>
 </ul>
 
 <h2>Con quién se comparten</h2>
-<p>Solo con los proveedores que hacen funcionar la app, como encargados del tratamiento: Supabase (cuenta y progreso, servidores en la Unión Europea), Google (Play, AdMob y Firebase Crashlytics) y RevenueCat (suscripciones). No vendemos tus datos.</p>
+<p>Solo con los proveedores que hacen funcionar la app, como encargados del tratamiento: Supabase (cuenta, progreso, contenido y cupos, servidores en la Unión Europea), Google (Play, AdMob, Firebase Crashlytics y Gmail para recibir tus dudas) y RevenueCat (suscripciones). No vendemos tus datos.</p>
 <p><strong>Transferencias fuera de la UE:</strong> Google y RevenueCat pueden tratar datos en Estados Unidos. Se amparan en el Marco de Privacidad de Datos UE-EE. UU. y/o en las cláusulas contractuales tipo de la Comisión Europea.</p>
 
 <h2>Cuánto tiempo se guardan</h2>
-<p>Mientras tengas la cuenta. Si la eliminas, se borran tu cuenta y tu progreso. Los informes de fallos se conservan como máximo 90 días. Los datos de compras que exija la ley se guardan bloqueados durante los plazos legales.</p>
+<p>Mientras tengas la cuenta. Si la eliminas, se borran tu cuenta y tu progreso. Los informes de fallos se conservan como máximo 90 días. Las dudas enviadas se conservan mientras sea necesario para atenderlas. Los datos de compras que exija la ley se guardan bloqueados durante los plazos legales.</p>
 
 <h2>Seguridad</h2>
 <p>Las comunicaciones van cifradas (HTTPS) y el acceso a los datos está restringido a cada usuario. Ningún sistema es infalible; si hubiera una brecha que te afecte, te avisaremos según exige la ley.</p>
 
 <h2>Cómo borrar tu cuenta y tus datos</h2>
-<p>Desde la app: <em>Ajustes → Eliminar cuenta</em>. Se borran al momento la cuenta y todo su progreso. También puedes pedirlo por correo (abajo).</p>
+<p>Desde la app: <em>Ajustes → Eliminar cuenta</em>. Se borran al momento la cuenta, su progreso y su registro de uso. También puedes pedirlo por correo (abajo).</p>
 
 <h2>Tus derechos</h2>
 <p>Puedes pedir acceso, rectificación, supresión, oposición, limitación y portabilidad de tus datos escribiendo al correo de contacto. También puedes reclamar ante la Agencia Española de Protección de Datos (aepd.es).</p>
